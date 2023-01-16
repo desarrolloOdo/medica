@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Odoo Medica',
+    'name': 'Odoo Medicasis',
     
-    'summary':"""Medica app to manage Training""",
+    'summary':"""Academy app to manage Training""",
     
     'description': """
-        Academy Module to manage :
-        -Citas
-        -Medicos
-        -Pacientes
+        Academy Module to manage Training:
+        -Courses
+        -Sessions
+        -Attendees
     """,
     
     'author': 'Ivan',
@@ -22,11 +22,11 @@
     'depends':['base'],
     
     'data':[
-        
+       
     ],
     
     'demo':[
-       
+        
     ],
     
      'license': 'LGPL-3',
