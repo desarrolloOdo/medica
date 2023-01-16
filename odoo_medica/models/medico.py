@@ -9,7 +9,7 @@ class Medica(models.Model):
     
     name = fields.Char(string='Title',required=True)
     description = fields.Text(string='Description')
-    telefono = fields.Text(string='Description')
+    telefono = fields.Text(string='Telefono')
     level = fields.Selection(string='Level',
                             selection=[('beginner','Beginner'),
                                       ('intermediate','Intermediate'),

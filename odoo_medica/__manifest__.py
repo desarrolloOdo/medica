@@ -22,6 +22,7 @@
     'depends':['base'],
     
     'data':[
+    
         'views/medica_menuitems.xml',
         'views/medico_views.xml',
     ],

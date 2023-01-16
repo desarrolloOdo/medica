@@ -1,0 +1,3 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+medico_admin,medico admin,model_medica_medico,group_medico_admin,1,1,1,1
+medico_read_all,medico read all,model_medica_medico,,1,0,0,0
